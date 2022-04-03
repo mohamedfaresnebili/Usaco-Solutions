@@ -52,7 +52,7 @@
             return a.ff < b.ff;
         }
 
-		int32_t main() {
+	int32_t main() {
             ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
             freopen("balancing.in", "r", stdin);
             freopen("balancing.out", "w", stdout);
@@ -83,4 +83,4 @@
                 l = i;
             }
             cout << res << "\n";
-		}
+	}
